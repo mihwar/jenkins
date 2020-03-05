@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh 'whereis python'
+                sh 'echo Hello!'
             }
         }
     }
